@@ -66,11 +66,12 @@ pip install -r requirements.txt
 ```
 
 ### 2. Generate Final 0.99+ Submission
-Run the master pipeline script:
+Run the master entrypoint script:
 
 ```bash
-python solution_pipeline.py
+python main.py
 ```
+*(Alternatively: `python solution_pipeline.py`)*
 
 The script will:
 - Detect or download the RT-IoT2022 benchmark dataset.
