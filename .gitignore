@@ -1,0 +1,36 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large precomputed probability arrays and artifacts
+*.npy
+*.npz
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE configurations
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Large datasets (optional: track submission.csv and sample_submission.csv, ignore large raw files if needed)
+data/rt_iot2022_uci.csv
+# Uncomment below if you prefer downloading raw data separately:
+# data/train.csv
+# data/test.csv
